@@ -37,3 +37,13 @@ steps:
     body: issue_1.md
     comments:
       - issue_1.md
+
+- title: Step 2
+  description: description 2
+  event: issues
+  actions:
+  - type: createIssue
+    title: Title of the issue 2
+    body: issue_1.md
+    comments:
+      - issue_1.md
