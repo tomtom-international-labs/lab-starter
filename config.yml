@@ -19,9 +19,9 @@ template:
 before:
 - type: createIssue
   title: Title of the issue
-  body: issue-body.md
+  body: issue_1.md
   comments:
-    - issue-comment.md
+    - issue_1.md
 
 # Steps for the course
 # A list of steps that take the learner through the course
@@ -34,6 +34,6 @@ steps:
   actions:
   - type: createIssue
     title: Title of the issue
-    body: issue-body.md
+    body: issue_1.md
     comments:
-      - issue-comment.md
+      - issue_1.md
